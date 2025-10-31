@@ -1,0 +1,98 @@
+/* General Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f7fb;
+    color: #222;
+}
+
+/* Navigation Bar */
+nav {
+    background: #0b3d91;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Sections */
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Profile Image */
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #0b3d91;
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: scale(1.1);
+}
+
+/* Form Styling */
+form {
+    width: 350px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #0b3d91;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: #0b3d91;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #06275e;
+}
+
+/* Footer */
+footer {
+    background: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: yellow;
+    text-decoration: none;
+}
